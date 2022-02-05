@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+.section1{
+    background-image: url(./image/minimaliste.jpg);
+    background-position: right no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Quintessential', cursive;
+    font-weight: 600; 
+}
+nav{
+    color: pink;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;   
+}
+
+li{
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 20px; 
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffc8ff 100%);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 150px;
+    transition:  0.5s;
+   
+    
+}
+
+li:hover{
+    background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+    transform: scale(1.1);
+    
+}
+
+h2{
+    margin-left: 20px;
+    font-size: 3rem;
+    color: #f8b49f;
+    
+}
+
+span{
+    color: #ffbcff ;
+}
+/******************Section 2 "A propos"*******/
+.section2{
+    height: 100vh;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    
+}
+    
+img{
+    height: 300px;
+}
+
+h3{
+    padding: 7px;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffc8ff 100%);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
+    font-family: 'Quintessential', cursive;
+    font-size: 2rem; 
+}
+
+p{
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/**************Section 3 "Formations""**********/
+.section3{
+    height: 100vh;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+h3{
+    padding: 7px;
+    background-image: linear-gradient(to top, #fad0c4 0%, #fdc1fd 100%);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    font-family: 'Quintessential', cursive;
+    font-size: 2rem; 
+}
+
+.icon1{
+    font-size: 50px;
+    color: #fdc1fd;
+    margin-left: 100px;
+}
+
+img{
+    height: 200px;
+}
+
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************Section 4 "Réalisation"*******/
+.section4{
+    height: 100vh;
+}
+
+/**************Section 5 "Contact**********/
+.section5{
+    height: 100vh;
+}
+
+.section5 h3{
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px 25px;
+    background-image: linear-gradient(to top, #fad0c4 0%, #fdc1fd 100%);
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+button{
+    padding: 10px 20px; 
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffc8ff 100%);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+button:active{
+    background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+    transform: scale(1.1); 
+}
+
+textarea{
+    resize: none;
+}
+
+.info{
+    width: 100%;
+    font-weight: bold;
+}
+
+/*************Contact info********/
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;   
+}
+
+.icon2{
+    margin-right: 20px;
+    color:#fdc1fd;
+    font-size: 20px;
+}
+
+.contact-info-box{
+   margin-top: 50px;
+}
+
+.section5 p{
+    font-size: 1.2rem;
+}
+
+.adresse{
+    width: 100%;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+p::selection{
+    background: #fdc1fd;
+}
